@@ -743,7 +743,7 @@ footer .back-to-top i {
 
 }
 
-@media (max-width: 300px){
+@media (max-width: 100%){
 
   .navbar-brand {
     float: none;
@@ -752,7 +752,7 @@ footer .back-to-top i {
   .menu-first {
     margin: 0px;
     padding: 0px;
-    width: 100%;
+    width: 50%;
     text-align: center;
     float: none;
   }
@@ -785,7 +785,7 @@ footer .back-to-top i {
 
 }
 
-@media (max-width: 385px){
+@media (max-width: 100%){
 
   
 
@@ -803,7 +803,7 @@ footer .back-to-top i {
 
 .slbOverlay {
 
-    overflow: hidden; z-index: 2000; background-color: #000; opacity: 0.7; filter: alpha(opacity=70);
+    overflow: hidden; z-index: 2000; background-color: rgb(255, 9, 9); opacity: 0.7; filter: alpha(opacity=70);
     @include animation(slbOverlay 0.5s);
 
 }
@@ -853,7 +853,7 @@ footer .back-to-top i {
 
 .slbImageWrap {
 
-    @include animation(slbEnter 0.3s);
+    @include animation(slbEnter 0.5s);
     position: relative;
 
     &:after {
@@ -895,7 +895,7 @@ footer .back-to-top i {
 
     $size: 50; $iconSize: 30;
 
-    @include animation(slbEnter 0.3s);
+    @include animation(slbEnter 0.5s);
 
     font-size: em($iconSize,10); width: em($size,$iconSize); height: em($size,$iconSize); line-height: em($size,$iconSize);
     position: absolute; right: em(-10,$iconSize); top: 0;
@@ -929,7 +929,7 @@ footer .back-to-top i {
 
 .slbArrow {
 
-    $size: 50; $iconSize: 8;
+    $size: 50%; $iconSize: 8;
 
     position: absolute; top: 50%; margin-top: em(-1*$size,10); width: em($size,10); height: em($size*2,10);
     opacity: 0.7; text-indent: -999em; overflow: hidden;
