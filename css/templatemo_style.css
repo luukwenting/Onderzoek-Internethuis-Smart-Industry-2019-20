@@ -743,7 +743,7 @@ footer .back-to-top i {
 
 }
 
-@media (max-width: 767px){
+@media (max-width: 300px){
 
   .navbar-brand {
     float: none;
